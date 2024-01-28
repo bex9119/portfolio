@@ -2,7 +2,7 @@ import { Container, Row } from "react-bootstrap"
 
 const Header = () => {
     return (
-      <Container fluid className="header-container">
+      <Container fluid >
         <Row>
           <h1>Rebecca Wallis</h1>
         </Row>
