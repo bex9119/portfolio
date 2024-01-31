@@ -1,15 +1,16 @@
 import './App.css'
 import TopBar from './Components/TopBar';
-import Home from './Components/Header';
+import Home from './Components/Home';
+import { Route, Routes } from 'react-router-dom';
+import ProjectHome from './Components/ProjectHome';
+
 function App() {
   
   return (
-
-      <div>
-            <TopBar />
-            <Home />
-      </div>
-
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/Projects" element={<ProjectHome />} />
+    </Routes>
   );
 }
 

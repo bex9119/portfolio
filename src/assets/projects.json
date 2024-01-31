@@ -1,0 +1,25 @@
+[
+  {
+    "name": "News API",
+    "host": "https://news-13r8.onrender.com/api",
+    "github": "https://github.com/bex9119/news-api",
+    "description": "This backend project contains an API which allows users to read articles, post comments on articles and vote on them. Users can also delete comments, see the users and topics for the articles.",
+    "tech": ["JavaScript", "Express", "NodeJS", "Jest", "SuperTest"],
+    "image": "src/assets/projectCardImages/news-api.png"
+  },
+  {
+    "name": "News Website",
+    "host": "https://rwallis-news.netlify.app/",
+    "github": "https://github.com/bex9119/nc-news",
+    "description": "This frontend project contains a website which allows users to read articles, display articles based upon their catagory, date written, comment count and number of votes. Users can comment on articles and like their favourites. Users can also delete any comments they have made.",
+    "tech": ["JavaScript", "React", "Vite", "Bootstrap"],
+    "image":"src/assets/projectCardImages/newsCard.png"
+  },
+    {
+    "name": "To Do List",
+    "host": "TBA",
+    "github": "TBA",
+    "description": "copy and paste",
+    "tech": ["TypeScript", "React", "Vite", "Bootstrap"]
+  }
+]
