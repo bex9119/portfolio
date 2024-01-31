@@ -1,16 +1,13 @@
-import { Container, Row } from "react-bootstrap"
+import { Button, Col, Container, Row } from "react-bootstrap"
 
-const Header = () => {
+const Home = () => {
     return (
-      <Container fluid >
-        <Row>
-          <h1>Rebecca Wallis</h1>
-        </Row>
-        <Row>
-          <h2>Junior Software Developer</h2>
-        </Row>
-      </Container>
+      <>
+        <h1 className="josefin-sans-h1">Rebecca Wallis</h1>
+        <h2 className="josefin-sans-h2">Junior Software Developer</h2>
+        <Button variant="dark" style={{padding: '1rem', paddingInline: '3rem'}}>Projects</Button>
+      </>
     );
 }
 
-export default Header
+export default Home
