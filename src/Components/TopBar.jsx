@@ -2,7 +2,7 @@ import { Container, Nav, Navbar } from "react-bootstrap"
 
 const TopBar = () => {
     return (
-      <Navbar className="bg-body-tertiary">
+      <Navbar bg="dark" data-bs-theme="dark">
         <Container fluid>
           <Navbar.Brand>Rebecca Wallis</Navbar.Brand>
           <Nav>

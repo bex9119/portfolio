@@ -17,9 +17,10 @@
   },
     {
     "name": "To Do List",
-    "host": "TBA",
-    "github": "TBA",
-    "description": "copy and paste",
-    "tech": ["TypeScript", "React", "Vite", "Bootstrap"]
+    "host": "https://rwallis-todo-list.netlify.app/",
+    "github": "https://github.com/bex9119/ToDo-List",
+    "description": "Mini React app, add an item to a to do list, cross the item off when complete. Written using TypeScript",
+    "tech": ["TypeScript", "React", "Vite", "Bootstrap"],
+    "image": "src/assets/projectCardImages/todo.png"
   }
 ]
