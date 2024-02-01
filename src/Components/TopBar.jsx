@@ -4,11 +4,11 @@ const TopBar = () => {
     return (
       <Navbar bg="dark" data-bs-theme="dark">
         <Container fluid>
-          <Navbar.Brand>Rebecca Wallis</Navbar.Brand>
+          <Navbar.Brand>RebeccaWallis</Navbar.Brand>
           <Nav>
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/Projects">Projects</Nav.Link>
-            <Nav.Link>Contact</Nav.Link>
+            <Nav.Link href="/Contact">Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
