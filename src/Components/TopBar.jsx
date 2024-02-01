@@ -1,25 +1,17 @@
-import { Container, Navbar } from "react-bootstrap"
+import { Container, Nav, Navbar } from "react-bootstrap"
 
 const TopBar = () => {
     return (
-      <Navbar className="bg-body-tertiary">
+      <Navbar bg="dark" data-bs-theme="dark">
         <Container fluid>
-          <Navbar.Brand>
-Rebecca Wallis
-                </Navbar.Brand>
-                <Navbar.Text>
-                    Home
-                </Navbar.Text>
-                <Navbar.Text>
-                    Projects
-                </Navbar.Text>
-                <Navbar.Text>
-                    Contact
-                </Navbar.Text>
-         
+          <Navbar.Brand>Rebecca Wallis</Navbar.Brand>
+          <Nav>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/Projects">Projects</Nav.Link>
+            <Nav.Link>Contact</Nav.Link>
+          </Nav>
         </Container>
       </Navbar>
-
     );
 }
 
