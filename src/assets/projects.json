@@ -5,7 +5,8 @@
     "github": "https://github.com/bex9119/news-api",
     "description": "This backend project contains an API which allows users to read articles, post comments on articles and vote on them. Users can also delete comments, see the users and topics for the articles.",
     "tech": ["JavaScript", "Express", "NodeJS", "Jest", "SuperTest"],
-    "image": "src/assets/projectCardImages/news-api.png"
+    "image": "/assests/projectCardImages/news-api.png",
+    "techImages": ["/JavaScriptLogo.png", "/jestLogo.jpeg", "/NodeJs.png"]
   },
   {
     "name": "News Website",
@@ -13,14 +14,16 @@
     "github": "https://github.com/bex9119/nc-news",
     "description": "This frontend project contains a website which allows users to read articles, display articles based upon their catagory, date written, comment count and number of votes. Users can comment on articles and like their favourites. Users can also delete any comments they have made.",
     "tech": ["JavaScript", "React", "Vite", "Bootstrap"],
-    "image":"src/assets/projectCardImages/newsCard.png"
+    "image": "/assests/projectCardImages/newsCard.png",
+    "techImages": ["/JavaScriptLogo.png","/reactLogo.png", "/ViteLogo.png"]
   },
     {
-    "name": "To Do List",
-    "host": "https://rwallis-todo-list.netlify.app/",
-    "github": "https://github.com/bex9119/ToDo-List",
-    "description": "Mini React app, add an item to a to do list, cross the item off when complete. Written using TypeScript",
-    "tech": ["TypeScript", "React", "Vite", "Bootstrap"],
-    "image": "src/assets/projectCardImages/todo.png"
-  }
+      "name": "To Do List",
+      "host": "https://rwallis-todo-list.netlify.app/",
+      "github": "https://github.com/bex9119/ToDo-List",
+      "description": "Mini React app, add an item to a to do list, cross the item off when complete. Written using TypeScript",
+      "tech": ["TypeScript", "React", "Vite", "Bootstrap"],
+      "image": "/assests/projectCardImages/todo.png",
+      "techImages": ["/TypeScriptLogo.png", "/reactLogo.png", "/ViteLogo.png"]
+    }
 ]
